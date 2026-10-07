@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Void</string>
+    <string name="downloading">正在下载</string>
+    <string name="paused">已暂停</string>
+    <string name="queued">排队中</string>
+    <string name="download_complete">下载完成</string>
+    <string name="pause">暂停</string>
+    <string name="resume">继续</string>
+    <string name="open">打开</string>
+    <string name="download_channel_name">下载</string>
+    <string name="download_channel_description">下载进度通知</string>
+    <string name="download_failed">下载失败</string>
+    <string name="transcoding">转码中</string>
+    <string name="download_downloading_with_total">正在下载 • %1$s / %2$s (%3$s%%)</string>
+    <string name="download_downloading_partial">正在下载 • %1$s</string>
+    <string name="download_paused_with_total">已暂停 • %1$s / %2$s (%3$s%%)</string>
+    <string name="download_paused_partial">已暂停 • %1$s</string>
+    <string name="download_transcoding_with_size">转码中 • %1$s</string>
+    <plurals name="download_summary_downloading">
+        <item quantity="one">%d 个下载进行中</item>
+        <item quantity="other">%d 个下载进行中</item>
+    </plurals>
+    <plurals name="download_summary_queued">
+        <item quantity="one">%d 个下载排队中</item>
+        <item quantity="other">%d 个下载排队中</item>
+    </plurals>
+    <plurals name="download_summary_paused">
+        <item quantity="one">%d 个下载已暂停</item>
+        <item quantity="other">%d 个下载已暂停</item>
+    </plurals>
+    <string name="download_limit_reached">已达下载限制</string>
+    <string name="download_limit_reached_message">无法开始新的下载，已达到存储限制。</string>
+    <string name="data_limit_reached">已达流量限制</string>
+    <string name="data_limit_reached_message">由于流量上限，下载已暂停。</string>
+    <string name="error_network">网络错误，请检查您的网络连接。</string>
+    <string name="error_auth">认证错误，请重新登录。</string>
+    <string name="error_validation">输入无效，请重试。</string>
+    <string name="error_unknown">发生未知错误。</string>
+    <string name="app_logo_desc">应用图标</string>
+    <string name="search">搜索</string>
+    <string name="dismiss">关闭</string>
+    <string name="error">错误</string>
+    <string name="something_went_wrong">出了点问题</string>
+    <string name="retry">重试</string>
+    <string name="sign_out">退出登录</string>
+    <string name="sign_out_confirm_message">确定要退出登录吗？退出后需要重新登录才能访问您的媒体。</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="back">返回</string>
+    <string name="refresh">刷新</string>
+    <string name="on">开</string>
+    <string name="off">关</string>
+    <string name="close">关闭</string>
+    <string name="selected">已选择</string>
+    <string name="not_selected">未选择</string>
+    <string name="download_limit_title">下载限制</string>
+    <string name="download_limit_item">%1$d GB</string>
+    <string name="bottom_nav_home">首页</string>
+    <string name="bottom_nav_library">媒体库</string>
+    <string name="bottom_nav_profile">个人</string>
+    <string name="search_placeholder">搜索电影、剧集…</string>
+    <string name="clear_search">清除搜索</string>
+    <string name="recent_searches">最近搜索</string>
+    <string name="clear_all">全部清除</string>
+    <string name="view_more">查看更多 %1$d 项…</string>
+    <string name="all_recent_searches">全部最近搜索</string>
+    <string name="done">完成</string>
+    <string name="player_selection_title">默认播放器</string>
+    <string name="setting_player_type_title">视频播放器</string>
+    <string name="setting_player_type_subtitle">选择您偏好的播放引擎</string>
+    <string name="settings_preferred_video_codec_title">首选视频编码</string>
+    <string name="settings_preferred_video_codec_subtitle">选择用于转码的视频编码</string>
+    <string name="settings_preferred_audio_codec_title">首选音频编码</string>
+    <string name="settings_preferred_audio_codec_subtitle">选择用于转码的音频编码</string>
+    <string name="dialog_preferred_video_codec_title">视频编码</string>
+    <string name="dialog_preferred_audio_codec_title">音频编码</string>
+    <string name="dialog_playback_quality_title">播放画质</string>
+    <string name="dialog_playback_quality_original">原始流</string>
+    <string name="mpv_config_title">MPV 配置</string>
+    <string name="ok">确定</string>
+</resources>
