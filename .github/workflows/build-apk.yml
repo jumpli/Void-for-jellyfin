@@ -1,0 +1,33 @@
+name: Build Void APK
+
+on:
+  workflow_dispatch:          # 允许手动点击运行
+  push:
+    branches: [ main ]        # 推送到 main 也会自动编译（可选）
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: gradle
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+
+      - name: Build Debug APK
+        run: ./gradlew assembleDebug --no-daemon --stacktrace
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: Void-Debug-APK
+          path: app/build/outputs/apk/debug/*.apk
+          retention-days: 7
